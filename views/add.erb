@@ -1,0 +1,15 @@
+<h3>Add Answers to the EightBall</h3>
+
+
+
+    <form method='POST' action='/add'>
+      <input type='text' name='adding' required />
+      <input type='submit' />
+    </form>
+
+  <div class='add'>
+    <% if @adding  %>
+    <p><i><%= @adding %></i> was added</p>
+    <% end %>
+
+  </div>

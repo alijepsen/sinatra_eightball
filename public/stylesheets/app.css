@@ -1,0 +1,39 @@
+body {
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+
+}
+
+#home-button {
+  font-size: 26px;
+  color: blue;
+}
+
+.nav {
+  margin-top: 25px;
+}
+
+.eightball-container {
+  margin-top: 25px;
+
+}
+
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple {
+  margin-top: 15px;
+  color: blue;
+  font-size: 18px;
+}
+
+

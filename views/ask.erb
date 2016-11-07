@@ -1,0 +1,19 @@
+<h3>Ask the EightBall your question...</h3>
+
+  <div class='ask'>
+    <% if @question  %>
+    <% end %>
+
+    <form method='POST' action='/ask'>
+      <input type='text' name='question' required />
+      <input type='submit' />
+    </form>
+  </div>
+
+
+ <div class='simple'>
+  <p><i><%= @simple %></i></p>
+</div>
+
+
+

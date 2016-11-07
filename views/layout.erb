@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='/stylesheets/app.css' />
+    <title>Eight Ball</title>
+  </head>
+
+  <body>
+
+  <body>
+    <a id='home-button' href='/'>Home</a>
+    <nav class='nav'>
+      <li><a href='/ask'>Ask the EightBall</a></li>
+      <li><a href='/add'>Add Answers</a></li>
+      <li><a href='/reset'>Reset Answers</a></li>
+      </nav>
+
+    <section class='eightball-container'>
+    <div class="ball">
+      <a href='/ask'>
+      <img class='8-ball' src='/images/8_ball.jpg' alt='Upright 8 ball' /></a>
+    </div>
+    </section>
+
+
+  <%= yield %>
+
+  </body>
+</html>
